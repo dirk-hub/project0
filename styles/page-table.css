@@ -1,0 +1,27 @@
+/*
+ * Use CSS-variables instead of SCSS.
+ */
+:root {
+    --hasFocusColor: #f0e080;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+th {
+    background-color: #d0d0d0;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.hasFocus {
+    background-color: var(--hasFocusColor);
+}
